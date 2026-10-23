@@ -1,0 +1,381 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#17191d">
+    <meta name="description" content="Portfólio de João Victor, desenvolvedor de bots para Discord e aplicações web.">
+    <title>João Victor — Portfólio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="site-container">
+        <header class="topbar">
+            <a href="#" class="logo" aria-label="Página inicial">
+                <span class="logo-symbol">~/</span>
+                <span>joaovictor</span>
+            </a>
+
+            <span class="availability">
+                <span class="status-dot"></span>
+                aprendendo e desenvolvendo
+            </span>
+        </header>
+
+        <main>
+            <section class="intro">
+                <div class="intro-content">
+                    <span class="eyebrow">DESENVOLVEDOR EM FORMAÇÃO</span>
+
+                    <h1>Oi, eu sou <span>João Victor.</span></h1>
+
+                    <p class="intro-description">
+                        Gosto de transformar ideias em código, criar bots para
+                        Discord e desenvolver projetos para a web.
+                    </p>
+
+                    <div class="intro-actions">
+                        <button class="button button-primary" data-open-tab="contato">
+                            Entrar em contato <span aria-hidden="true">↗</span>
+                        </button>
+
+                        <a class="button button-secondary"
+                           href="https://github.com/"
+                           target="_blank"
+                           rel="noopener noreferrer">
+                            <span aria-hidden="true">⌘</span>
+                            GitHub
+                        </a>
+                    </div>
+                </div>
+
+                <div class="terminal" aria-label="Exemplo de código">
+                    <div class="terminal-header">
+                        <div class="terminal-dots">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                        <span class="terminal-title">profile.js</span>
+                        <span class="terminal-menu">•••</span>
+                    </div>
+
+                    <div class="terminal-body">
+                        <div class="code-line">
+                            <span class="line-number">1</span>
+                            <code><span class="code-purple">const</span> <span class="code-blue">dev</span> = {</code>
+                        </div>
+                        <div class="code-line">
+                            <span class="line-number">2</span>
+                            <code>&nbsp;&nbsp;nome: <span class="code-green">"João Victor"</span>,</code>
+                        </div>
+                        <div class="code-line">
+                            <span class="line-number">3</span>
+                            <code>&nbsp;&nbsp;foco: <span class="code-green">"Desenvolvimento"</span>,</code>
+                        </div>
+                        <div class="code-line">
+                            <span class="line-number">4</span>
+                            <code>&nbsp;&nbsp;linguagens: [</code>
+                        </div>
+                        <div class="code-line">
+                            <span class="line-number">5</span>
+                            <code>&nbsp;&nbsp;&nbsp;&nbsp;<span class="code-green">"Python"</span>, <span class="code-green">"JavaScript"</span></code>
+                        </div>
+                        <div class="code-line">
+                            <span class="line-number">6</span>
+                            <code>&nbsp;&nbsp;],</code>
+                        </div>
+                        <div class="code-line">
+                            <span class="line-number">7</span>
+                            <code>&nbsp;&nbsp;objetivo: <span class="code-green">"Evoluir sempre"</span></code>
+                        </div>
+                        <div class="code-line">
+                            <span class="line-number">8</span>
+                            <code>};</code>
+                        </div>
+                        <div class="code-line terminal-result">
+                            <span class="line-number">9</span>
+                            <code><span class="code-muted">// pronto para o próximo desafio_</span></code>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="content-area">
+                <nav class="tabs" aria-label="Navegação do portfólio" role="tablist">
+                    <button class="tab-button active"
+                            id="tab-sobre"
+                            data-tab="sobre"
+                            aria-controls="sobre"
+                            aria-selected="true"
+                            role="tab">
+                        <span class="tab-number">01</span>
+                        Sobre
+                    </button>
+
+                    <button class="tab-button"
+                            id="tab-tecnologias"
+                            data-tab="tecnologias"
+                            aria-controls="tecnologias"
+                            aria-selected="false"
+                            role="tab"
+                            tabindex="-1">
+                        <span class="tab-number">02</span>
+                        Tecnologias
+                    </button>
+
+                    <button class="tab-button"
+                            id="tab-contato"
+                            data-tab="contato"
+                            aria-controls="contato"
+                            aria-selected="false"
+                            role="tab"
+                            tabindex="-1">
+                        <span class="tab-number">03</span>
+                        Contato
+                    </button>
+                </nav>
+
+                <div class="tab-content">
+                    <section class="tab-panel"
+                             id="sobre"
+                             role="tabpanel"
+                             aria-labelledby="tab-sobre"
+                             tabindex="0">
+                        <div class="section-heading">
+                            <span class="section-marker">01 / SOBRE</span>
+                            <h2>Um pouco sobre mim</h2>
+                        </div>
+
+                        <div class="about-layout">
+                            <div class="about-text">
+                                <p>
+                                    Sou um desenvolvedor em formação que gosta
+                                    de aprender na prática, entender como as
+                                    coisas funcionam e criar soluções úteis.
+                                </p>
+
+                                <p>
+                                    Tenho interesse no desenvolvimento de bots
+                                    para Discord, automações e aplicações web.
+                                    Cada projeto é uma oportunidade de aprender
+                                    algo novo e melhorar meu código.
+                                </p>
+
+                                <p>
+                                    Ainda estou construindo minha trajetória,
+                                    mas busco evoluir um pouco a cada dia.
+                                </p>
+                            </div>
+
+                            <aside class="info-panel">
+                                <div class="info-panel-header">
+                                    <span class="status-dot"></span>
+                                    <span>informações.js</span>
+                                </div>
+
+                                <div class="info-row">
+                                    <span class="info-key">status</span>
+                                    <span class="info-value">Aprendendo</span>
+                                </div>
+                                <div class="info-row">
+                                    <span class="info-key">interesse</span>
+                                    <span class="info-value">Desenvolvimento</span>
+                                </div>
+                                <div class="info-row">
+                                    <span class="info-key">foco</span>
+                                    <span class="info-value">Prática</span>
+                                </div>
+                                <div class="info-row">
+                                    <span class="info-key">objetivo</span>
+                                    <span class="info-value">Evolução constante</span>
+                                </div>
+                            </aside>
+                        </div>
+                    </section>
+
+                    <section class="tab-panel"
+                             id="tecnologias"
+                             role="tabpanel"
+                             aria-labelledby="tab-tecnologias"
+                             tabindex="0"
+                             hidden>
+                        <div class="section-heading">
+                            <span class="section-marker">02 / TECNOLOGIAS</span>
+                            <h2>Minha stack</h2>
+                            <p>
+                                Linguagens, ferramentas e tecnologias que utilizo
+                                nos meus estudos e projetos.
+                            </p>
+                        </div>
+
+                        <div class="tech-list">
+                            <div class="tech-item">
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" alt="Ícone do Python">
+                                <div class="tech-info">
+                                    <h3>Python</h3>
+                                    <p>Automação e desenvolvimento de bots.</p>
+                                </div>
+                            </div>
+
+                            <div class="tech-item">
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" alt="Ícone do JavaScript">
+                                <div class="tech-info">
+                                    <h3>JavaScript</h3>
+                                    <p>Interatividade e aplicações.</p>
+                                </div>
+                            </div>
+
+                            <div class="tech-item">
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg" alt="Ícone do TypeScript">
+                                <div class="tech-info">
+                                    <h3>TypeScript</h3>
+                                    <p>JavaScript com tipagem estática.</p>
+                                </div>
+                            </div>
+
+                            <div class="tech-item">
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" alt="Ícone do HTML5">
+                                <div class="tech-info">
+                                    <h3>HTML5</h3>
+                                    <p>Estrutura de páginas web.</p>
+                                </div>
+                            </div>
+
+                            <div class="tech-item">
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg" alt="Ícone do CSS3">
+                                <div class="tech-info">
+                                    <h3>CSS3</h3>
+                                    <p>Estilização de páginas web.</p>
+                                </div>
+                            </div>
+
+                            <div class="tech-item">
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/discordjs/discordjs-original.svg" alt="Ícone do Discord.js">
+                                <div class="tech-info">
+                                    <h3>Discord.js</h3>
+                                    <p>Bots para Discord com JavaScript.</p>
+                                </div>
+                            </div>
+
+                            <div class="tech-item">
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/discordjs/discordjs-original.svg" alt="Símbolo do Discord para discord.py">
+                                <div class="tech-info">
+                                    <h3>discord.py</h3>
+                                    <p>Bots para Discord com Python.</p>
+                                </div>
+                            </div>
+
+                            <div class="tech-item">
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original.svg" alt="Ícone do Node.js">
+                                <div class="tech-info">
+                                    <h3>Node.js</h3>
+                                    <p>JavaScript executado no servidor.</p>
+                                </div>
+                            </div>
+
+                            <div class="tech-item">
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/sqlite/sqlite-original.svg" alt="Ícone do SQLite">
+                                <div class="tech-info">
+                                    <h3>SQLite</h3>
+                                    <p>Armazenamento e consulta de dados.</p>
+                                </div>
+                            </div>
+
+                            <div class="tech-item">
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg" alt="Ícone do Git">
+                                <div class="tech-info">
+                                    <h3>Git</h3>
+                                    <p>Controle de versões do código.</p>
+                                </div>
+                            </div>
+
+                            <div class="tech-item">
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg" alt="Ícone do GitHub">
+                                <div class="tech-info">
+                                    <h3>GitHub</h3>
+                                    <p>Hospedagem de repositórios.</p>
+                                </div>
+                            </div>
+
+                            <div class="tech-item">
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vscode/vscode-original.svg" alt="Ícone do Visual Studio Code">
+                                <div class="tech-info">
+                                    <h3>Visual Studio Code</h3>
+                                    <p>Editor de código utilizado nos estudos.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+                    <section class="tab-panel"
+                             id="contato"
+                             role="tabpanel"
+                             aria-labelledby="tab-contato"
+                             tabindex="0"
+                             hidden>
+                        <div class="section-heading">
+                            <span class="section-marker">03 / CONTATO</span>
+                            <h2>Vamos conversar?</h2>
+                            <p>Você pode me encontrar nestas plataformas.</p>
+                        </div>
+
+                        <div class="contact-list">
+                            <a class="contact-item"
+                               href="https://github.com/"
+                               target="_blank"
+                               rel="noopener noreferrer">
+                                <span class="contact-icon">GH</span>
+                                <span class="contact-info">
+                                    <strong>GitHub</strong>
+                                    <span>Meus códigos e repositórios</span>
+                                </span>
+                                <span class="contact-arrow">↗</span>
+                            </a>
+
+                            <a class="contact-item"
+                               href="https://discord.com/"
+                               target="_blank"
+                               rel="noopener noreferrer">
+                                <span class="contact-icon">DC</span>
+                                <span class="contact-info">
+                                    <strong>Discord</strong>
+                                    <span>Entre em contato comigo</span>
+                                </span>
+                                <span class="contact-arrow">↗</span>
+                            </a>
+
+                            <a class="contact-item"
+                               href="https://instagram.com/"
+                               target="_blank"
+                               rel="noopener noreferrer">
+                                <span class="contact-icon">IG</span>
+                                <span class="contact-info">
+                                    <strong>Instagram</strong>
+                                    <span>Meu perfil nas redes sociais</span>
+                                </span>
+                                <span class="contact-arrow">↗</span>
+                            </a>
+                        </div>
+
+                        <p class="contact-note">
+                            Troque os links de exemplo pelos endereços dos seus perfis.
+                        </p>
+                    </section>
+                </div>
+            </section>
+        </main>
+
+        <footer class="footer">
+            <span>© <span id="year"></span> João Victor</span>
+            <span>Feito com código e dedicação.</span>
+            <span class="footer-status">
+                <span class="status-dot"></span>
+                online
+            </span>
+        </footer>
+    </div>
+</body>
+</html>
